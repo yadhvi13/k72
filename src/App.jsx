@@ -12,18 +12,18 @@ const App = () => {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <FullScreennav />
       {/* 
        <Link className='text-blue-500 text-sm mr-5' to='/'>Home</Link>
        <Link className='text-blue-500 text-sm mr-5' to='/agents'>Agents</Link>
        <Link className='text-blue text-sm mr-5' to='/projects'>Projects</Link> */}
 
-      {/* <Routes>
+      <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/agents' element={<Agents />} />
         <Route path='/projects' element={<Projects />} />
-      </Routes> */}
+      </Routes>
     </div>
   )
 }
